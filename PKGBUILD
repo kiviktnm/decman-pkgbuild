@@ -1,6 +1,6 @@
 # Maintainer: Kivi Kaitaniemi <kivi AT ktnm DOT net>
 pkgname=decman-git
-pkgver=0.0.1
+pkgver=0.1.0
 pkgrel=1
 pkgdesc="Declarative package & configuration manager for Arch Linux."
 arch=("any")
@@ -13,6 +13,11 @@ source=("$pkgname::git+https://github.com/kiviktnm/decman.git")
 sha256sums=("SKIP")
 provides=("decman")
 conflicts=("decman")
+
+pkgver() {
+    cd "$pkgname"
+    git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+}
 
 build() {
     cd "$pkgname"
