@@ -1,6 +1,6 @@
 # Maintainer: Kivi Kaitaniemi <kivi AT ktnm DOT net>
 pkgname=decman-git
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 pkgdesc="Declarative package & configuration manager for Arch Linux."
 arch=("any")
