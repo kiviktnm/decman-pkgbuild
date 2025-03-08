@@ -1,0 +1,24 @@
+pkgbase = decman-git
+	pkgdesc = Declarative package & configuration manager for Arch Linux.
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://github.com/kiviktnm/decman
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	depends = python-requests
+	depends = devtools
+	depends = pacman
+	depends = systemd
+	depends = git
+	optdepends = less: reviewing files such as PKGBUILDs
+	provides = decman
+	conflicts = decman
+	source = decman-git::git+https://github.com/kiviktnm/decman.git
+	sha256sums = SKIP
+
+pkgname = decman-git
