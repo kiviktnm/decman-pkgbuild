@@ -1,6 +1,6 @@
 pkgbase = decman
 	pkgdesc = Declarative package & configuration manager for Arch Linux.
-	pkgver = 0.3.3
+	pkgver = 0.3.4
 	pkgrel = 1
 	url = https://github.com/kiviktnm/decman
 	arch = any
@@ -16,7 +16,7 @@ pkgbase = decman
 	depends = systemd
 	depends = git
 	optdepends = less: reviewing files such as PKGBUILDs
-	source = decman-0.3.3.tar.gz::https://github.com/kiviktnm/decman/archive/refs/tags/0.3.3.tar.gz
-	sha256sums = e415040f3a32fb5c4286ed28bbf71a75a39a79f7a5426447318d17351c5634c6
+	source = decman-0.3.4.tar.gz::https://github.com/kiviktnm/decman/archive/refs/tags/0.3.4.tar.gz
+	sha256sums = 93326a3736ff2bafc21b4bdb74f7cabd4b45974ad76938246ad0db7c40c40d8e
 
 pkgname = decman
