@@ -1,11 +1,12 @@
 pkgbase = decman
 	pkgdesc = Declarative package & configuration manager for Arch Linux.
-	pkgver = 1.0.0
+	pkgver = 1.1.0
 	pkgrel = 1
 	url = https://github.com/kiviktnm/decman
 	arch = any
 	license = GPL3
 	checkdepends = python-pytest
+	checkdepends = python-pytest-mock
 	makedepends = python-setuptools
 	makedepends = python-build
 	makedepends = python-installer
@@ -19,7 +20,7 @@ pkgbase = decman
 	depends = git
 	depends = less
 	optdepends = flatpak: manage flatpak packages
-	source = decman-1.0.0.tar.gz::https://github.com/kiviktnm/decman/archive/refs/tags/1.0.0.tar.gz
-	sha256sums = 268fe706dc4c86a1e1fc4d09170e01110069c90eefbd2773520d6647066c45c4
+	source = decman-1.1.0.tar.gz::https://github.com/kiviktnm/decman/archive/refs/tags/1.1.0.tar.gz
+	sha256sums = 21cf226a4e865b8ce547d06d13cc277ca509b36cfea32550b9577df4f2a134c0
 
 pkgname = decman
