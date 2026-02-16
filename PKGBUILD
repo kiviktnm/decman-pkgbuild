@@ -1,6 +1,6 @@
 # Maintainer: Kivi Kaitaniemi <kivi AT ktnm DOT net>
 pkgname=decman
-pkgver=1.1.0
+pkgver=1.2.0
 pkgrel=1
 pkgdesc="Declarative package & configuration manager for Arch Linux."
 arch=("any")
@@ -11,7 +11,7 @@ makedepends=("python-setuptools" "python-build" "python-installer" "python-wheel
 checkdepends=("python-pytest" "python-pytest-mock")
 optdepends=("flatpak: manage flatpak packages")
 source=("$pkgname-$pkgver.tar.gz::https://github.com/kiviktnm/$pkgname/archive/refs/tags/$pkgver.tar.gz")
-sha256sums=("21cf226a4e865b8ce547d06d13cc277ca509b36cfea32550b9577df4f2a134c0")
+sha256sums=("3379e80585fd8ef00bbadd5654b8957addfd1e92a594b996570f5948adc7ff12")
 
 build() {
     cd "$pkgname-$pkgver"
