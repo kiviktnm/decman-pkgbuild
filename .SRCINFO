@@ -1,7 +1,7 @@
 pkgbase = decman
 	pkgdesc = Declarative package & configuration manager for Arch Linux.
 	pkgver = 1.2.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/kiviktnm/decman
 	arch = any
 	license = GPL3
@@ -21,6 +21,6 @@ pkgbase = decman
 	depends = less
 	optdepends = flatpak: manage flatpak packages
 	source = decman-1.2.2.tar.gz::https://github.com/kiviktnm/decman/archive/refs/tags/1.2.2.tar.gz
-	sha256sums = c46d86c11975556fb3dbe44d03d73c62e6379c1e11e7e48346983a2559b2412d
+	sha256sums = 4f448ad712d76eef60fe856373db1ebbde88d8a5db3e429392245d03b78bb128
 
 pkgname = decman
